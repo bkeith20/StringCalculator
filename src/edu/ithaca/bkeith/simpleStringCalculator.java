@@ -1,10 +1,7 @@
 package edu.ithaca.bkeith;
 
-public class simpleStringCalculator {
+public interface simpleStringCalculator {
 
-    int Add(String numbers){
-        int sum = 0;
-        return sum;
-    }
+    int Add(String numbers);
 
 }
