@@ -4,6 +4,11 @@ public class simpleStringCalculatorIMPL implements simpleStringCalculator {
 
     @Override
     public int Add(String numbers) {
-        return -1;
+        if(numbers==""){
+            return 0;
+        }
+        else{
+            return -1;
+        }
     }
 }
