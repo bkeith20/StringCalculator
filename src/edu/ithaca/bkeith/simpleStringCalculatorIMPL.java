@@ -8,7 +8,7 @@ public class simpleStringCalculatorIMPL implements simpleStringCalculator {
             return 0;
         }
         else{
-            return -1;
+            return Integer.parseInt(numbers);
         }
     }
 }
