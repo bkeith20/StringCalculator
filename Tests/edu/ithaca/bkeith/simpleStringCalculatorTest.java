@@ -12,6 +12,17 @@ class simpleStringCalculatorTest {
         int sum = myCalc.Add(nums);
         assertEquals(0,sum);
         //one number: positive, negative, numbers of more than one digit
+        nums = "2";
+        sum = myCalc.Add(nums);
+        assertEquals(2,sum);
+
+        nums = "-2";
+        sum = myCalc.Add(nums);
+        assertEquals(-2,sum);
+
+        nums = "100";
+        sum = myCalc.Add(nums);
+        assertEquals(100,sum);
 
         //two numbers: positive, negative, numbers of more than one digit
 
