@@ -25,8 +25,8 @@ public class simpleStringCalculatorIMPL implements simpleStringCalculator {
             numarray = numbers.split("\n");
             try {
                 int sum = 0;
-                for (int i = 0; i < numlist.size(); i++) {
-                    sum = sum + Integer.parseInt(numlist.get(i));
+                for (int i = 0; i < numarray.length; i++) {
+                    sum = sum + Integer.parseInt(numarray[i]);
                 }
                 return sum;
             }
