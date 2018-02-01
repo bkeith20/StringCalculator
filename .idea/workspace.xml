@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ab34b3d-9870-463a-9578-cd0cfc075693" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/edu/ithaca/bkeith/simpleStringCalculatorTest.java" afterPath="$PROJECT_DIR$/Tests/edu/ithaca/bkeith/simpleStringCalculatorTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/ithaca/bkeith/simpleStringCalculatorIMPL.java" afterPath="$PROJECT_DIR$/src/edu/ithaca/bkeith/simpleStringCalculatorIMPL.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simpleStringCalculatorIMPL.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="simpleStringCalculatorIMPL.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/ithaca/bkeith/simpleStringCalculatorIMPL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.4537246">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simpleStringCalculatorTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="simpleStringCalculatorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/edu/ithaca/bkeith/simpleStringCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.751693">
-              <caret line="52" column="50" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,8 +89,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/simpleStringCalculatorIMPL.java" />
         <option value="$PROJECT_DIR$/src/edu/ithaca/bkeith/simpleStringCalculator.java" />
-        <option value="$PROJECT_DIR$/src/edu/ithaca/bkeith/simpleStringCalculatorIMPL.java" />
         <option value="$PROJECT_DIR$/Tests/edu/ithaca/bkeith/simpleStringCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/edu/ithaca/bkeith/simpleStringCalculatorIMPL.java" />
       </list>
     </option>
   </component>
@@ -277,7 +275,7 @@
       <created>1516978148365</created>
       <option name="number" value="Default" />
       <updated>1516978148365</updated>
-      <workItem from="1517497303996" duration="388000" />
+      <workItem from="1517497303996" duration="460000" />
     </task>
     <servers />
   </component>
@@ -311,7 +309,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="388000" />
+    <option name="totallyTimeSpent" value="460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="0" />
@@ -430,21 +428,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/ithaca/bkeith/simpleStringCalculatorIMPL.java">
+    <entry file="file://$PROJECT_DIR$/Tests/edu/ithaca/bkeith/simpleStringCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/edu/ithaca/bkeith/simpleStringCalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/ithaca/bkeith/simpleStringCalculatorIMPL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.751693">
-          <caret line="52" column="50" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
-          <folding />
+        <state vertical-scroll-proportion="0.4537246">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
