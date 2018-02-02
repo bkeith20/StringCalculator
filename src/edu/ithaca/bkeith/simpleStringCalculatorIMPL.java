@@ -10,14 +10,31 @@ public class simpleStringCalculatorIMPL implements simpleStringCalculator {
         if(numbers==""){
             return 0;
         }
-        else{
+        else {
             String[] numarray = numbers.split(",");
-            List<String> numlist = Arrays.asList(numarray);
-            int sum = 0;
-            for (int i = 0; i<numlist.size(); i++){
-                sum = sum + Integer.parseInt(numlist.get(i));
+
+            try {
+                List<String> numlist = Arrays.asList(numarray);
+                int sum = 0;
+                for (int i = 0; i < numlist.size(); i++) {
+                    sum = sum + Integer.parseInt(numlist.get(i));
+                }
+                return sum;
             }
-            return sum;
+            catch (NumberFormatException e) {}
+            numarray = numbers.split("\n");
+            try {
+                int sum = 0;
+                for (int i = 0; i < numarray.length; i++) {
+                    sum = sum + Integer.parseInt(numarray[i]);
+                }
+                return sum;
+            }
+            catch (NumberFormatException e) {}
+
+            //String was not in correct format when separated by commas or new lines
+            return 0;
+
         }
     }
 }

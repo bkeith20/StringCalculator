@@ -43,10 +43,16 @@ class simpleStringCalculatorTest {
         sum = myCalc.Add(nums);
         assertEquals(-13,sum,"Sum should be -13");
 
-        //more than two numbers
-        nums = "5,5,5,5,5,5,5,5,5";
+
+        //Separated by new lines
+        nums = "100\n-1";
         sum = myCalc.Add(nums);
-        assertEquals(45,sum,"Sum should be 45");
+        assertEquals(99,sum,"Sum should be 99");
+
+        nums = "10\n-3\n15\n-100\n57\n8";
+        sum = myCalc.Add(nums);
+        assertEquals(-13,sum,"Sum should be -13");
+
 
     }
 }
