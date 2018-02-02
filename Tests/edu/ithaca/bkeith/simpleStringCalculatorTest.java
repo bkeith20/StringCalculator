@@ -43,6 +43,7 @@ public class simpleStringCalculatorTest {
         sum = myCalc.Add(nums);
         assertEquals(-13,sum);
 
+
         //Separated by new lines
         nums = "100\n-1";
         sum = myCalc.Add(nums);
