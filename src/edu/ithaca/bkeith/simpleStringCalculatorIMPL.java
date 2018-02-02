@@ -10,12 +10,13 @@ public class simpleStringCalculatorIMPL implements simpleStringCalculator {
         if(numbers==""){
             return 0;
         }
+        //do some stuff
         else{
             String[] numarray = numbers.split(",");
             List<String> numlist = Arrays.asList(numarray);
             int sum = 0;
             for (int i = 0; i<numlist.size(); i++){
-                sum = sum + Integer.parseInt(numlist.get(i));
+                sum += Integer.parseInt(numlist.get(i));
             }
             return sum;
         }

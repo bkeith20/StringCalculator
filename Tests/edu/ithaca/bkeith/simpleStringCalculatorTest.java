@@ -43,6 +43,11 @@ class simpleStringCalculatorTest {
         sum = myCalc.Add(nums);
         assertEquals(-13,sum,"Sum should be -13");
 
+        //test for merge
+        nums = "10,-3,15,-101,54,8";
+        sum = myCalc.Add(nums);
+        assertEquals(-13,sum,"");
+
         //more than two numbers
         nums = "5,5,5,5,5,5,5,5,5";
         sum = myCalc.Add(nums);
